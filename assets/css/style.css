@@ -1,0 +1,11 @@
+.transition{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s ease-out;
+}
+
+.transition:hover{
+    width: 400px;
+    transition: 0.5s ease-in;
+}
